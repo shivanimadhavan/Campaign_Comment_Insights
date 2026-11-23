@@ -1,0 +1,21 @@
+comment_id,comment_text,topic,sentiment,side_effect_flag
+CM002167,Ok so tastes like mint and works 👍,effect,positive,false
+CM001887,"Krass. Warum so teuer?? 16,90€ für so eine kleine Packung!",price_availability,negative,false
+CM001641,"Update: preis schon wieder gestiegen, nicht ok",price_availability,negative,false
+CM001389,Hmm how many can I take per day max?...,usage_question,neutral,false
+CM002180,💰 Crypto signals 300% profit DM me 💰,spam,neutral,false
+CM001235,Zu fettig und hilft kaum #empfehlung,effect,negative,false
+CM001577,Hmm wer hat die Werbung gemacht? Musik ist super,other,positive,false
+CM002441,"Hmm doesn't work, waste of money",effect,negative,false
+CM000244,Ok so this cream burned like crazy on my skin,side_effect,negative,true
+CM002712,Wow. It stopped my itching in a day,effect,positive,false
+CM002823,Update: von Gastrelle hatte ich tagelang Verstopfung 😴,side_effect,negative,true
+CM001873,"Hmm great taste, works fast. Felt a bit sick afterwards but probably the pizza",side_effect,negative,true
+CM000231,Beste Creme für meine trockenen juckenden Hände,effect,positive,false
+CM000217,💰 Crypto signals 300% profit DM me 💰,spam,neutral,false
+CM002268,"Also preis schon wieder gestiegen, nicht ok...",price_availability,negative,false
+CM002208,"Ehrlich gesagt, ist Gastrelle für Jugendliche ok?!",usage_question,neutral,false
+CM001868,Hmm dermolyx hat an meinen Ellbogen nichts verändert!,effect,negative,false
+CM001039,Hmm nice video 😄 👍,other,positive,false
+CM002653,Also wer hat die Werbung gemacht? Musik ist super,other,positive,false
+CM001828,Krass. Darf man Gastrelle in der Schwangerschaft nehmen? 🙏,usage_question,neutral,false

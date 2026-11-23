@@ -1,0 +1,11 @@
+campaign_id,product_id,campaign_name,start_date,end_date,budget_eur,target_age
+C01,P01,Sleep Better Autumn 2025,2025-09-15,2025-11-30,40000,18-45
+C02,P01,Calmeryn Night Winter,01.12.2025,2026-02-28,8000,30-60
+C03,P02,Gastrelle Launch,2025-11-15,2026-01-31,8000,25-55
+C04,P02,Holiday Feasts,2025-12-10,2026-01-10,25.000,30-65
+C05,P03,Dermolyx Launch,2026-02-01,2026-04-30,12000,20-50
+C06,P03,Itch-Free Summer,2026-06-01,2026-08-31,25000,18-40
+C07,P1,Exam Season Sleep,2026-05-01,2026-07-15,8000,18-25
+C08,P02,Grill Season,2026-05-15,2026-08-31,40000,25-60
+C09,P03,Parents & Skin,2026-03-01,2026-05-31,25000,28-45
+C05,P03,Dermolyx Launch,2026-02-01,2026-04-30,12000,20-50
