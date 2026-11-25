@@ -1,0 +1,90 @@
+{
+  "delivery": "delivery_1",
+  "files": {
+    "products.csv": {
+      "status": "processed",
+      "blank_values": {
+        "product_id": 0,
+        "product_name": 0,
+        "category": 0,
+        "form": 0,
+        "active_ingredient": 0,
+        "launch_date": 0
+      },
+      "source_rows": 3,
+      "exact_duplicates_removed": 0,
+      "repeated_versions_resolved": 0,
+      "unique_rows": 3
+    },
+    "campaigns.csv": {
+      "status": "processed",
+      "blank_values": {
+        "campaign_id": 0,
+        "product_id": 0,
+        "campaign_name": 0,
+        "start_date": 0,
+        "end_date": 0,
+        "budget_eur": 0,
+        "target_age": 0
+      },
+      "source_rows": 10,
+      "exact_duplicates_removed": 1,
+      "repeated_versions_resolved": 0,
+      "unique_rows": 9
+    },
+    "posts.csv": {
+      "status": "processed",
+      "blank_values": {
+        "post_id": 0,
+        "campaign_id": 0,
+        "platform": 0,
+        "published_at": 0,
+        "impressions": 2,
+        "likes": 0
+      },
+      "source_rows": 73,
+      "exact_duplicates_removed": 1,
+      "repeated_versions_resolved": 0,
+      "unique_rows": 72
+    },
+    "comments.csv": {
+      "status": "processed",
+      "blank_values": {
+        "comment_id": 0,
+        "post_id": 0,
+        "author_handle": 0,
+        "created_at": 0,
+        "edited_at": 3105,
+        "comment_text": 45,
+        "likes": 0
+      },
+      "source_rows": 3105,
+      "exact_duplicates_removed": 75,
+      "repeated_versions_resolved": 0,
+      "unique_rows": 3030
+    }
+  },
+  "actions": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 3084,
+    "skipped_older": 30
+  },
+  "relationships": {
+    "campaigns_missing_product": 0,
+    "posts_missing_campaign": 0,
+    "comments_missing_post": 29,
+    "comments_blank_text": 47,
+    "sqlite_foreign_key_violations": 0
+  },
+  "normalizations": [
+    {
+      "file": "campaigns.csv",
+      "record": "C07",
+      "field": "product_id",
+      "original": "P1",
+      "resolved": "P01",
+      "reason": "verified zero-padding"
+    }
+  ]
+}

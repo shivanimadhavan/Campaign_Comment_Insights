@@ -1,0 +1,77 @@
+{
+  "delivery": "delivery_2",
+  "files": {
+    "products.csv": {
+      "status": "not_supplied"
+    },
+    "campaigns.csv": {
+      "status": "processed",
+      "blank_values": {
+        "campaign_id": 0,
+        "product_id": 0,
+        "campaign_name": 0,
+        "start_date": 0,
+        "end_date": 0,
+        "budget_eur": 0,
+        "target_age": 0
+      },
+      "source_rows": 1,
+      "exact_duplicates_removed": 0,
+      "repeated_versions_resolved": 0,
+      "unique_rows": 1
+    },
+    "posts.csv": {
+      "status": "processed",
+      "blank_values": {
+        "post_id": 0,
+        "campaign_id": 0,
+        "platform": 0,
+        "published_at": 0,
+        "impressions": 1,
+        "likes": 0
+      },
+      "source_rows": 14,
+      "exact_duplicates_removed": 0,
+      "repeated_versions_resolved": 0,
+      "unique_rows": 14
+    },
+    "comments.csv": {
+      "status": "processed",
+      "blank_values": {
+        "comment_id": 0,
+        "post_id": 0,
+        "author_handle": 0,
+        "created_at": 0,
+        "edited_at": 484,
+        "comment_text": 6,
+        "likes": 0
+      },
+      "source_rows": 514,
+      "exact_duplicates_removed": 10,
+      "repeated_versions_resolved": 1,
+      "unique_rows": 503
+    }
+  },
+  "actions": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 518,
+    "skipped_older": 0
+  },
+  "relationships": {
+    "campaigns_missing_product": 0,
+    "posts_missing_campaign": 0,
+    "comments_missing_post": 29,
+    "comments_blank_text": 47,
+    "sqlite_foreign_key_violations": 0
+  },
+  "date_warnings": [
+    {
+      "file": "comments.csv",
+      "record": "CM002061",
+      "issue": "created_at and edited_at have mixed timezone information; chronological validation skipped",
+      "created_at": "2026-02-17T07:47:00Z",
+      "edited_at": "2026-10-05T04:24:00"
+    }
+  ]
+}
