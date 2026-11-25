@@ -24,7 +24,7 @@ from src.database import SessionLocal, Comment, CommentAnalysis
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 PROMPT_PATH = BASE_DIR / "prompts" / "classify_comment.txt"
-PROMPT_VERSION = "v1"  # Increase when you edit the prompt.
+PROMPT_VERSION = "v3"  # Increase when you edit the prompt.
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 REQUEST_DELAY = float(os.getenv("GEMINI_REQUEST_DELAY", "0"))
 

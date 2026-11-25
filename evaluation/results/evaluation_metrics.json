@@ -1,7 +1,7 @@
 {
   "evaluated": 20,
-  "topic_accuracy": 0.95,
-  "sentiment_accuracy": 0.85,
+  "topic_accuracy": 1.0,
+  "sentiment_accuracy": 0.9,
   "side_effect_precision": 1.0,
   "side_effect_recall": 1.0,
   "side_effect_f1": 1.0,
@@ -25,8 +25,7 @@
       "spam": 2
     },
     "other": {
-      "other": 2,
-      "spam": 1
+      "other": 3
     },
     "side_effect": {
       "side_effect": 3
@@ -38,8 +37,8 @@
   ],
   "exact_text_subset": {
     "evaluated": 19,
-    "topic_accuracy": 0.9474,
-    "sentiment_accuracy": 0.8421,
+    "topic_accuracy": 1.0,
+    "sentiment_accuracy": 0.8947,
     "side_effect_precision": 1.0,
     "side_effect_recall": 1.0,
     "side_effect_f1": 1.0,
@@ -63,8 +62,7 @@
         "spam": 2
       },
       "other": {
-        "other": 2,
-        "spam": 1
+        "other": 3
       },
       "side_effect": {
         "side_effect": 3
