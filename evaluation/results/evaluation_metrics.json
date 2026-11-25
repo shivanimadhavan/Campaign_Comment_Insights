@@ -1,0 +1,75 @@
+{
+  "evaluated": 20,
+  "topic_accuracy": 0.95,
+  "sentiment_accuracy": 0.85,
+  "side_effect_precision": 1.0,
+  "side_effect_recall": 1.0,
+  "side_effect_f1": 1.0,
+  "side_effect_confusion": {
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "TN": 17
+  },
+  "topic_confusion": {
+    "effect": {
+      "effect": 6
+    },
+    "price_availability": {
+      "price_availability": 3
+    },
+    "usage_question": {
+      "usage_question": 3
+    },
+    "spam": {
+      "spam": 2
+    },
+    "other": {
+      "other": 2,
+      "spam": 1
+    },
+    "side_effect": {
+      "side_effect": 3
+    }
+  },
+  "text_exact_match_count": 19,
+  "text_mismatch_ids": [
+    "CM001235"
+  ],
+  "exact_text_subset": {
+    "evaluated": 19,
+    "topic_accuracy": 0.9474,
+    "sentiment_accuracy": 0.8421,
+    "side_effect_precision": 1.0,
+    "side_effect_recall": 1.0,
+    "side_effect_f1": 1.0,
+    "side_effect_confusion": {
+      "TP": 3,
+      "FP": 0,
+      "FN": 0,
+      "TN": 16
+    },
+    "topic_confusion": {
+      "effect": {
+        "effect": 5
+      },
+      "price_availability": {
+        "price_availability": 3
+      },
+      "usage_question": {
+        "usage_question": 3
+      },
+      "spam": {
+        "spam": 2
+      },
+      "other": {
+        "other": 2,
+        "spam": 1
+      },
+      "side_effect": {
+        "side_effect": 3
+      }
+    }
+  },
+  "note": "All-sample agreement includes any text mismatches between the labelled file and current database. Exact-text subset excludes them. Review mismatched rows manually; 20 comments are too few for strong accuracy claims."
+}
